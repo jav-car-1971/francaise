@@ -21,33 +21,31 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Tarea de construcción
+    # Tarea de construcción
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.119.0 # Puedes cambiar la versión de Hugo si lo necesitas
+      HUGO_VERSION: '0.146.0' # <-- La versión exacta que pide el log de error.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive # Descarga el tema (submódulo)
+          submodules: recursive
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Install Hugo CLI
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3 # Usando v3 como en tu ejemplo.
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
-          extended: true
+          extended: true # Absolutamente necesario, como bien indicas.
 
       - name: Build with Hugo
-        # Construye el sitio usando la baseURL que GitHub Pages proporciona
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        # Sube el directorio /public como un artefacto para que la tarea de despliegue lo use
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
