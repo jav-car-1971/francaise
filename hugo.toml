@@ -32,5 +32,5 @@ disableScrollToTop = true
   disableHugoGeneratorInject = false
 
 [params.homeInfoParams]
-  Title = "¡Hola! 👋"
-  Content = "Bienvenido a mi sitio de Hugo. Empieza a escribir tus posts aquí."
+  Title = "¡Bonjour! 👋"
+  Content = "Bienvenue sur mon blog français."
