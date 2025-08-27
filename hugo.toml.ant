@@ -31,6 +31,6 @@ disableScrollToTop = true
   hideSummary = false
   disableHugoGeneratorInject = false
 
-#[params.homeInfoParams]
- # Title = "¡Bonjour! 👋"
- # Content = "Bienvenue sur mon blog français."
+[params.homeInfoParams]
+  Title = "¡Bonjour! 👋"
+  Content = "Bienvenue sur mon blog français."
