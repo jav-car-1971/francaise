@@ -1,5 +1,5 @@
 baseURL = "https://jav-car-fr/github.io/francaise/"
-languageCode = "fr-fr" # languageCode = "es-es" Le cambié el idioma a la configuración
+languageCode = "fr-fr" # languageCode = "es-es" Le cambié el idioma a la configuración.
 title = "Mon blog en français"
 theme = "PaperMod"
 
