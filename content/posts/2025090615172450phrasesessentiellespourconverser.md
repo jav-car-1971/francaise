@@ -1,7 +1,7 @@
 ---
 title: "Guide des phrases essentielles pour converser en français"
 date: 2025-09-06
-summary: "Ressource pour améliorer expression orale en français. Partage des phrases clés pour surmonter le blocage souvent ressenti lors de conversations spontanées et naturelles, même si vous possédez déjà un bon vocabulaire".
+summary: "Ressource pour améliorer expression orale en français. Partage des phrases clés pour surmonter le blocage souvent ressenti lors de conversations spontanées et naturelles, même si vous possédez déjà un bon vocabulaire"
 category: ["Conversation"]
 tags:["Conversation française", "Phrases utiles", "Expressions courantes", "Salut et au revoir", "Demander et répondre", "Accord et désaccord, "Français naturel", "Vocabulaire conversation", "Météo"]
 draft: false
